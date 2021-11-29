@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(208, 231, 252);
+}
+
+header {
+  top: 0;
+  padding: 1rem 1rem;
+  gap: 20px;
+}
+
+header nav ul {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  gap: 30px;
+  overflow-x: auto;
+  text-decoration: none;
+  font-family: "Hero New UltraLight";
+}
+
+a:visited {
+  color: rgb(0, 38, 255);
+}
+
+#first_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  font-size: 1rem;
+  background-color: url(billeder/samler.png);
+}
